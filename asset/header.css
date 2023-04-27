@@ -1,0 +1,73 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__left__logo>a{
+    display: flex;
+    align-items: center;
+}
+.header__left__logo>a>img{
+    width: 37px;
+    height: 45px;
+}
+.header__left__logo>a>h1{
+    margin-left: 14px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 52px;
+    color: #58A9A5;
+}
+.header__center__nav>ul{
+    display: flex;
+
+}
+.header__center__nav>ul>li>a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    color: #404242;
+    margin-left: 55px;
+
+}
+.header__center__nav>ul>li{
+    position: relative;
+}
+.header__center__nav>ul>li>a:hover{
+    color: #58A9A5;
+}
+.header__center__nav>ul>li>a:hover::after{
+    content: "";
+    color: #58A9A5;
+    border-bottom: 2px solid #FEC62D; 
+    top: 45px;
+    left: 50px ;
+    position: absolute;
+
+}
+.header__center__nav>ul>li>a[href="#1"]:hover::after{
+    width: 65px;
+}
+.header__center__nav>ul>li>a[href="#2"]:hover::after{
+    width: 80px;
+}
+.header__center__nav>ul>li>a[href="#3"]:hover::after{
+    width: 95px;
+}
+.header__center__nav>ul>li>a[href="#4"]:hover::after{
+    width: 100px;
+}
+.header__right__button{
+    width: 200px;
+    height: 50px;
+    background: #58A9A5;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    color: #FFFFFF;
+    border: 0;
+}
