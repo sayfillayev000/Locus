@@ -1,6 +1,8 @@
 .How_it_works {
   position: relative;
   text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .box__text {
   font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;

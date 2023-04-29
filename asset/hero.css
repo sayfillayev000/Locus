@@ -13,7 +13,6 @@
     font-size: 60px;
     line-height: 80px;
     color: #1C2323;
-/*     margin: 0; */
 }
 .hero__lift__text>p{
     font-style: normal;
@@ -34,14 +33,6 @@
     color: #FFFFFF;
     border: 0;
 }
-
-
-
-
-
-
-
-
 .hero__right__img{
     width: 550px;
     height: 550px;

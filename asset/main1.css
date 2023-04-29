@@ -1,0 +1,81 @@
+.container__section {
+  padding-top: 250px;
+  text-align: center;
+}
+.container__section h2 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 75px;
+  text-align: center;
+  color: #1c2323;
+}
+.sectin__boxs {
+  display: flex;
+  position: relative;
+}
+.box__img {
+  display: flex;
+  align-items: center;
+}
+.box__img img {
+  margin: 0 25px;
+}
+.boxs__ringt {
+  width: 650px;
+  height: 500px;
+  background-color: #CCF0E6;
+}
+.ringt__text {
+  display: flex;
+  text-align: start;
+  margin-top: 20px;
+}
+.ringt__title {
+  margin: 0 40px;
+}
+.title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50px;
+  color: #58a9a5;
+}
+.subtitle {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 50px;
+  color: #58a9a5;
+}
+.boxs__ikon p {
+  position: relative;
+  right: 200px;
+  font-family: "Port Lligat Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 200px;
+  line-height: 321px;
+  color: #ffffff;
+}
+.icon__textera{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #486958;
+  width: 500px;
+}
+.icon__text{
+  text-align: start;
+  position: absolute;
+  bottom:60px;
+  right:95px;
+}
+.icon__text span{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 50px;
+  color: #486958;
+}
